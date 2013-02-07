@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Fruit.h"
+#import "Vegetable.h"
 
 @interface ViewController ()
 
@@ -21,15 +22,29 @@
 	// Do any additional setup after loading the view, typically from a nib.
     _cart = [NSMutableArray arrayWithCapacity:0];
     
-    for(int i = 0; i < 50; i++){
-        NSString * fruitName = [NSString stringWithFormat:@"Banana %d", i];
+    int i =1;
+    
+    
+        NSString * veggieName = [NSString stringWithFormat:@"Potato %d", i];
         
-        if((i % 10) == 0){
-            fruitName = [NSString stringWithFormat:@"Free Banana %d", i];
-        }
-        Fruit * anonFruit = [[Fruit alloc] initWithWithName:fruitName andColor:@"Yellow" andShape:@"Curved"];
-        [_cart addObject:anonFruit];
-    }
+         Vegetable * Potato = [[Vegetable alloc] initWithWithName:veggieName andColor:@"Brown" andShape:@"Oblong"];
+        [_cart addObject:Potato];
+    
+        i++;
+    
+        veggieName = [NSString stringWithFormat:@"Onion %d", i];
+    
+        Vegetable * Onion = [[Vegetable alloc] initWithWithName:veggieName andColor:@"Yellow" andShape:@"Round"];
+        [_cart addObject:Onion];
+    
+        i++;
+    
+        veggieName = [NSString stringWithFormat:@"Pumpkin %d", i];
+        
+        Vegetable * Pumpkin = [[Vegetable alloc] initWithWithName:veggieName andColor:@"Orange" andShape:@"Fat"];
+        [_cart addObject:Pumpkin];
+    
+    
     
     
 }
@@ -46,7 +61,7 @@
 
 -(NSString *) tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
-    return @"Fruit";
+    return @"Veggies";
 }
 
 -(int) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

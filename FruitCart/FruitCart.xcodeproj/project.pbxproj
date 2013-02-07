@@ -21,6 +21,7 @@
 		555E433C16B852FF00696EF1 /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = 555E433616B852FF00696EF1 /* Fruit.m */; };
 		555E433D16B852FF00696EF1 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 555E433816B852FF00696EF1 /* Apple.m */; };
 		555E433E16B852FF00696EF1 /* GoldDelicious.m in Sources */ = {isa = PBXBuildFile; fileRef = 555E433B16B852FF00696EF1 /* GoldDelicious.m */; };
+		E110243916C3C2B100BE4A7B /* Vegetable.m in Sources */ = {isa = PBXBuildFile; fileRef = E110243816C3C2B100BE4A7B /* Vegetable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,8 @@
 		555E433916B852FF00696EF1 /* Fruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fruit.h; sourceTree = "<group>"; };
 		555E433A16B852FF00696EF1 /* GoldDelicious.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoldDelicious.h; sourceTree = "<group>"; };
 		555E433B16B852FF00696EF1 /* GoldDelicious.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoldDelicious.m; sourceTree = "<group>"; };
+		E110243716C3C2B100BE4A7B /* Vegetable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vegetable.h; sourceTree = "<group>"; };
+		E110243816C3C2B100BE4A7B /* Vegetable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vegetable.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				555E433816B852FF00696EF1 /* Apple.m */,
 				555E433916B852FF00696EF1 /* Fruit.h */,
 				555E433616B852FF00696EF1 /* Fruit.m */,
+				E110243716C3C2B100BE4A7B /* Vegetable.h */,
+				E110243816C3C2B100BE4A7B /* Vegetable.m */,
 				555E433A16B852FF00696EF1 /* GoldDelicious.h */,
 				555E433B16B852FF00696EF1 /* GoldDelicious.m */,
 			);
@@ -202,6 +207,7 @@
 				555E433C16B852FF00696EF1 /* Fruit.m in Sources */,
 				555E433D16B852FF00696EF1 /* Apple.m in Sources */,
 				555E433E16B852FF00696EF1 /* GoldDelicious.m in Sources */,
+				E110243916C3C2B100BE4A7B /* Vegetable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +330,7 @@
 				555E433516B84E1E00696EF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
